@@ -1,0 +1,62 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+    background-image: url(https://www.jetersonlordano.com.br/cdn/posts/16-05-23-646350c1ed4fc/como-criar-um-gerador-de-senhas-aleatorias-em-javascript.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+
+.menu {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(148, 148, 148, 0.3);
+    margin-top: 180%;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color:#2686f3;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 1s;
+    transform: translateX(0) scale(0.5);
+    
+}
+
+button:hover,
+button:focus {
+  background: rgb(42, 245, 1);
+  transform: translateX(10px) scale(1.2);
+  
+}
+
+
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Branco com 80% de opacidade */
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.senha {
+    color: #ffffff;
+    margin-top: 4%;
+    animation: 4s ease-in-out infinite;
+}
+
